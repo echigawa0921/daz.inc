@@ -1890,10 +1890,11 @@ text-align: left;
     right: -100%;
     transition: .5s;
   }
-  .header_nav_lists {
-    display: block;
-    text-align: center;
+
+  .lp-sec-big {
+    height: 530px;
   }
+
   .header_nav_lists li {
     margin: 0 0 40px;
     text-align: center;
@@ -1911,10 +1912,10 @@ text-align: left;
     text-decoration-color:gray;
     border-width:5px;
   }
-
-}
 /* js function "menuToggle" starting only */
 .menu_active {
   right: 100;
 }
+}
+
 
