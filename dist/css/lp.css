@@ -25,8 +25,9 @@ html, body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .lp-title-main {
-  font-size: 100px;
-  margin-left: 270px;
+  font-size: 160px;
+  margin-left: 260px;
+  margin-top: 80px;
   padding: 0;
   border: 0;
   font-family: 'Caveat', cursive;
@@ -2140,14 +2141,11 @@ img {
     top: 20px;
     right: 20px;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .lp-title-main {
-  font-size: 90px;
-  margin-top: 110px;
-  margin-left: 115px;
+  font-size: 80px;
+  margin-left:100px;
   box-shadow:#000;
-  padding: 0;
-  border: 0;
   font-family: 'Caveat', cursive;
   text-decoration: underline 3px;
 }
