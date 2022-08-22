@@ -13,23 +13,23 @@ h2,h4,p {
   color: black;
   font-weight:bold;
 }
-html, body{
+html, body h1{
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  color: white;
+  color: black;
   font-weight:bold;
 }
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .lp-title-main {
   font-size: 160px;
-  margin-left: 260px;
   margin-top: 80px;
   padding: 0;
   border: 0;
+  margin: 0;
   font-family: 'Caveat', cursive;
 }
 
@@ -334,7 +334,9 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #FFF;
+  background-color: #EEEEEE;
+  background-size: cover;
+  
 }
 
 .lp-sec-big > .lp-block {
@@ -354,6 +356,7 @@ img {
   font-weight: bold;
   text-align: center;
   line-height: 1.3;
+  text-shadow: 0 0 2px #333;
 }
 
 .lp-sec-big--center > .lp-block > .lp-text {
@@ -363,6 +366,7 @@ img {
   text-align: center;
   line-height: 1.5;
   background-color: #FFF;
+  text-shadow: 0 0 2px #333;
 }
 
 .lp-sec-big--center > .lp-block > .lp-button {
@@ -2144,10 +2148,11 @@ img {
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .lp-title-main {
   font-size: 80px;
-  margin-left:100px;
+  margin: 0;
   box-shadow:#000;
   font-family: 'Caveat', cursive;
   text-decoration: underline 3px;
+  background-image:"img/fallback.jpeg";
 }
   #navibtn span {
     display: block;
