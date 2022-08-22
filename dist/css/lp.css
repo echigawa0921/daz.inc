@@ -31,7 +31,6 @@ html, body h1{
   border: 0;
   margin: 0;
   font-family: 'Caveat', cursive;
-  background-image:"img/fallback.jpeg";
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -2203,5 +2202,8 @@ img {
   }
   #menu-navibtn:checked ~ #navi label#navibtn span span::after {
     display: none;
+  }
+  #body {
+    background-image: url("/Users/koshikawayuuki/Downloads/lp-html 2/img/main-back.png");
   }
 }
