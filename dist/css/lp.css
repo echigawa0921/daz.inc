@@ -1688,7 +1688,7 @@ img {
 }
 .google-contents{
   height: 720px;
-  width: 700;
+  width: auto;
   margin: 0;
   display: flex;
   align-items: center;
@@ -2157,6 +2157,7 @@ img {
   text-decoration: underline 3px;
   background-image:"img/fallback.jpeg";
 }
+
   #navibtn span {
     display: block;
     width: 40px;
@@ -2207,6 +2208,16 @@ img {
   #menu-navibtn:checked ~ #navi label#navibtn span span::after {
     display: none;
   }
+  .oogaiyou{
+padding:0%;
+    margin: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+.google-contents{
+  padding: 0%;
+  margin: 0;
+}
 }
 
 
@@ -2245,18 +2256,6 @@ img {
   margin: auto;
   margin-bottom: 40px;
 }
-.top-gaiyou2{
-    display: flex;
-    margin-top: 50px;
-    font-size: 10px;
-    text-align: center;
-    border-bottom: 3px  gray;
-    align-items: flex-start;
-    padding-top: 70px;
-    background-color: white;
-    width: 100vw;
-    height: 600px;}
-    
 .kobayashi-btn-icon{
   border-radius: 120px;
 }
@@ -2307,6 +2306,7 @@ width: 100vh;}
   width: 300px;
   font-weight: bold;
   padding-top: 50px;
+  margin-bottom: 50px;
   margin: auto;
 }
 
