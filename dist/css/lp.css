@@ -151,6 +151,11 @@ img {
   line-height: 1.2;
 }
 
+.img_push{
+  background-color: #000;
+  background-image: url("/Users/koshikawayuuki/Downloads/lp-html 2/img/about.png");
+}
+
 .lp-c-button--large {
   padding: 1.25vw 3.125vw;
   font-size: 3.6rem;
