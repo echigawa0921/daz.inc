@@ -41,7 +41,7 @@ footer, header, hgroup, menu, nav, section {
 }
 article, aside, details, figcaption, figure,
 hgroup,  section {
-background-image: url("https://github.com/echigawa0921/daz.inc/blob/main/img/main-back.png?raw=true");
+background-image: url("https://github.com/echigawa0921/daz.inc/blob/main/img/backimage.png?raw=true");
 }
 body {
   line-height: 1;
