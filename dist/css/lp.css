@@ -66,6 +66,12 @@ table {
   border-spacing: 0;
 }
 
+.img_picture{
+  display: block;
+  margin: auto;
+  width: 900px;
+}
+
 /*!
  * File Name: lp.css 
  * Author: Kazuhiro Nigara
@@ -2147,6 +2153,13 @@ img {
     position: absolute;
     top: 20px;
     right: 20px;
+  }
+  .img_picture{
+    display: block;
+    margin: auto;
+    padding: 0;
+    width: 450px;
+    height: 550px;
   }
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .lp-title-main {
