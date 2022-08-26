@@ -260,6 +260,17 @@ body {
   font-size: 16px;
 }
 
+.contact_block{
+  margin: auto;
+  padding: 0%;
+  margin-top: 0%;
+}
+
+.contact-block2{
+  margin: auto;
+}
+
+
 @media screen and (max-width: 560px) {
   .lp-sec-footer > .lp-block .lp-copyright {
     font-size: 12px;
