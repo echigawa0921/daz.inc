@@ -39,10 +39,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
   color: #DDD;
 }
-article, aside, details, figcaption, figure,
-hgroup,  section {
-background-image: url("https://github.com/echigawa0921/daz.inc/blob/main/img/main-back.png?raw=true");
-}
 body {
   line-height: 1;
 }
@@ -1536,16 +1532,6 @@ img {
   border-radius: 24px;
   padding: 12px 30px;
 }
-
-.first-view {
-  background-image:url("./images/BO151030535008_TP_V.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 800px;
-}
-.first-view-textarea {
-  padding: 320px 60px;
-}
 .catchcopy {
   color: #fff;
   font-size: 72px;
@@ -2227,14 +2213,15 @@ img {
     display: none;
   }
   .oogaiyou{
-padding:0%;
-    margin: 0;
     background-color: white;
     border-radius: 10px;
+    width: auto;
 }
 .google-contents{
   padding: 0%;
   margin: 0;
+  width: auto;
+  font-size: 5px;
 }
 }
 
@@ -2364,4 +2351,47 @@ td{
     border-bottom: 1px solid gray;
     width: 500px;
     font-weight: 100;
+}
+
+/* table01 */
+#table01 tr {
+  border-bottom: 1px solid #b5b1b1;
+}
+
+#table01 th,
+#table01 td {
+  padding: 24px 0;
+  border: none;
+}
+
+#table01 th {
+  width: 30%;
+}
+
+/* sp */
+@media only screen and (max-width: 480px) {
+  #table01 th,
+  #table01 td {
+    width: 100%;
+    display: block;
+  }
+
+  #table01 th {
+    width: 100%;
+  }
+
+  #table01 td {
+    padding-top: 0;
+  }
+  .google-contents{
+    width: auto;
+  }
+  .oogaiyou{
+    padding: 0%;
+    text-align: center;
+    width: 350px;
+  }
+  .gaiyou-name-contact{
+    margin: auto;
+  }
 }
