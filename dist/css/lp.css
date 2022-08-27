@@ -1695,8 +1695,15 @@ img {
 .google-message{
   font-size: 40px;
   color:black;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid black;
+}
+.google-message-about{
+  font-size: 40px;
+  color:black;
+  margin-top: 100px;
+  padding-bottom: 20px;
   border-bottom: 3px solid black;
 }
 .sub-google-message{
@@ -2387,11 +2394,22 @@ td{
     width: auto;
   }
   .oogaiyou{
-    padding: 0%;
     text-align: center;
-    width: 350px;
+    width: 370px;
+    padding-left: 60px;
+    margin-left: 0px;
+    font-size: 15px;
+    margin-bottom: 100px;
   }
   .gaiyou-name-contact{
     margin: auto;
+  }
+  .google-message-about{
+    margin-top: 150px;
+    font-size: 40px;
+    color:black;
+    padding-top: 100px;
+    margin-top: 125px;
+    border-bottom: 3px solid black;
   }
 }
