@@ -276,17 +276,15 @@ body {
   padding: 20px;
 }
 
-.lp-button{
-  margin: auto;
-  margin-left: 300px;
-  margin-bottom: 70px;
+.margin-topping{
+  height: 150px;
 }
 
 .content .box{
   position: relative;
   margin: 0 auto;
   width: 90%;
-  height: 400px;
+  height: 700px;
 }
 
 .content .box img{
@@ -302,7 +300,7 @@ body {
   background: #fff;
   z-index: 0;
   top: 100px;
-  width: 500px;
+  width: 700px;
   height:  auto;
   padding: 30px;
   box-sizing: border-box;
@@ -346,6 +344,7 @@ body {
   width: 100%;
   padding: 2%;
   box-sizing: border-box;
+  font-size: 12px;
 }
 
 .content .box img{

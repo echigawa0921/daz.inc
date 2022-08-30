@@ -32,6 +32,7 @@ html, body h1{
   padding: 0;
   border: 0;
   margin: 0;
+
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -1508,7 +1509,7 @@ img {
   }
   .lp-sec-list > .lp-block > .lp-text {
     margin-top: 0.8rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: normal;
     text-align: center;
   }
@@ -1978,7 +1979,7 @@ text-align: left;
   }
 
   .lp-sec-big {
-    height: 530px;
+    height: 570px;
   }
 
   .top-gaiyou_contact{
