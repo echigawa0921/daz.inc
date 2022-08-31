@@ -32,7 +32,6 @@ html, body h1{
   padding: 0;
   border: 0;
   margin: 0;
-
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -43,7 +42,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-
 }
 
 ol, ul {
@@ -349,10 +347,32 @@ img {
   background-position: center;
   background-size: cover;
   background-color: #FFF;
+  height: 750px;
   background-image: url("https://github.com/echigawa0921/daz.inc/blob/main/img/%E3%81%93%E3%82%8CTOP%E3%81%A8%E3%81%8B%E3%81%A9%E3%81%86%EF%BC%9F.jpeg?raw=true");
 }
 
 .lp-sec-big > .lp-block {
+  width: 60%;
+}
+
+.lp-sec-big-vision {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #F2F2F2;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15.625vw 5vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("");
+}
+
+.lp-sec-big-vision > .lp-block {
   width: 60%;
 }
 
@@ -369,6 +389,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #F0F8FF;
 }
 
 .lp-sec-big-why > .lp-block {
