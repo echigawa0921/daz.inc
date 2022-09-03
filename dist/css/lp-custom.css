@@ -256,10 +256,6 @@ body {
   margin: auto;
 }
 
-.lp-block{
-
-}
-
 
 @media screen and (max-width: 560px) {
   .lp-sec-footer > .lp-block .lp-copyright {
@@ -294,7 +290,7 @@ body {
 }
 
 .content .box{
-  position: relative;
+  position: absolute;
   margin: 0 auto;
   width: 90%;
   height: 700px;

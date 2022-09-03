@@ -1921,6 +1921,7 @@ text-align: left;
   width: 100%;
   height: 80px;
   padding-left: 20px;
+  z-index: 200;
 }
 .header_contents {
   width: 100%;
@@ -1930,6 +1931,7 @@ text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 200;
 }
 .header_contents h1 {
   font-size: 22px;
@@ -1938,9 +1940,11 @@ text-align: left;
 .header_nav_lists {
   display: flex;
   font-weight: bolder;
+  z-index: 200;
 }
 .header_nav_lists li {
   margin: 0 40px 0 0;
+  z-index: 200;
 }
 .nav_link {
   font-size: 18px;
@@ -1951,6 +1955,7 @@ text-align: left;
   list-style: none;
   text-decoration: none;
   font-weight: bolder;
+  
 }
 /* Responsive menu button */
 .responsive_btn {
@@ -2052,6 +2057,7 @@ img {
   left: 0;
   height: 90px;
   width: 100%;
+  z-index: 200;
 }
 /* チェックボックスを非表示 */
 #navi input {

@@ -25,7 +25,6 @@
   }
   
   .content-top .box-top{
-    position: relative;
     margin: 0 auto;
     width: 90%;
     height: 700px;
@@ -39,7 +38,6 @@
   }
   
   .content-top .box-top p{
-    position: absolute;
     right: 0%;
     background: #fff;
     z-index: 0;
