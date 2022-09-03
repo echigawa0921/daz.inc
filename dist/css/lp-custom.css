@@ -256,6 +256,10 @@ body {
   margin: auto;
 }
 
+.lp-block{
+  margin-top: 200px;
+}
+
 
 @media screen and (max-width: 560px) {
   .lp-sec-footer > .lp-block .lp-copyright {
