@@ -260,7 +260,6 @@ img {
 }
 
 .lp-sec-band > .lp-block > {
-  margin-top: 1.6rem;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -1827,12 +1826,6 @@ img {
   width: 600px;
   font-weight: bold;
   margin: auto;
-}
-.arm-card__img {
-  margin-bottom: 16px;
-  object-fit: cover;
-  width: 700px;
-  height: 200px;
 }
 
 header.header .user_nav {
