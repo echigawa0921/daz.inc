@@ -21,7 +21,7 @@ html, body h1{
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-  color: black;
+  color: white;
   font-weight:bold;
 }
 
@@ -388,7 +388,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #F0F8FF;
+  background-color: 	#A4C6FF;
 }
 
 .lp-sec-big-why > .lp-block {
@@ -423,10 +423,11 @@ img {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15.625vw 5vw;
+  padding: 0vw 5vw 16vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: 	#A4C6FF;
 }
 
 .lp-sec-big-what > .lp-block {
@@ -524,7 +525,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 7.8125vw;
-  padding-bottom: 7.8125vw;
 }
 
 .lp-sec-big--text > .lp-block {

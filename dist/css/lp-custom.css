@@ -272,6 +272,8 @@ body {
 .lp-title{
   font-size: 35px;
   font-weight: bold;
+  padding-top: 0;
+  margin-top: 0;
   padding: 20px;
 }
 
@@ -309,9 +311,11 @@ body {
   background: #fff;
   z-index: 0;
   top: 100px;
+  font-size: 25px;
+  font-weight: 100;
   width: 700px;
   height:  auto;
-  padding: 30px;
+  padding: 50px;
   box-sizing: border-box;
   box-shadow: 0 0 10px #999;
   text-align: justify;
