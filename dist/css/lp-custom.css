@@ -51,7 +51,6 @@ body {
    bandArrow
 --------------------------------------------------------- */
 .lp-sec-band > .lp-block {
-  background-color: #0048A8;
   color: #fff;
 }
 
@@ -237,9 +236,6 @@ body {
 
 /* footer
 --------------------------------------------------------- */
-.lp-sec-footer {
-  background-color: #333;
-}
 
 .lp-sec-footer > .lp-block .lp-copyright {
   color: #fff;
@@ -331,6 +327,12 @@ body {
   box-sizing: border-box;
 }
 
+.content .box p{
+  right: 0;
+  margin-top: 22px;
+  padding: 20px;
+}
+
 .content .box img{
   position: static;
   width: 90%;
@@ -363,6 +365,12 @@ body {
   font-size: 12px;
 }
 
+.content .box p{
+  right: 0;
+  margin-top: 22px;
+  padding: 20px;
+}
+
 .content .box img{
   position: static;
   width: 90%;
@@ -389,5 +397,7 @@ body {
 
 .content .box p{
   right: 0;
+  margin-top: 22px;
+  padding: 20px;
 }
 }
