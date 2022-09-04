@@ -1647,7 +1647,6 @@ img {
   width: 500px;
   font-weight: bold;
   margin: 40px auto;
-  margin-bottom: 50px;
 }
 .stylist-list{
   display: flex;
@@ -1756,9 +1755,10 @@ img {
     padding-bottom: 30px;
 }
 .google-contents{
-  height: 720px;
+  height: 920px;
   width: auto;
   margin: 0;
+  padding-bottom: 80px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1853,6 +1853,10 @@ header.header .user_nav ul li a {
 display: block;
 padding: 20px 20px;
 text-align: left;
+}
+
+.top-gaiyou{
+  padding-top: 40px;
 }
 
 header.header .user_nav2 span {
@@ -2320,7 +2324,6 @@ img {
   width: 300px;
   font-weight: bold;
   padding-top: 50px;
-  margin-bottom: 50px;
   margin: auto;
 }
 
