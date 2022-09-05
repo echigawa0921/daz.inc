@@ -2046,7 +2046,7 @@ img {
 }
 
 #navi {
-  background-color: transparent;
+  background-color: gray;
   position: fixed;
   top: 0;
   left: 0;
