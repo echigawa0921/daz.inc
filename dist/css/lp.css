@@ -1359,6 +1359,9 @@ img {
     font-size: 2.3rem;
     text-align: center;
   }
+  .lp-sec-big{
+    height: 870px;
+  }
   .lp-sec-inline > .lp-block > .lp-text {
     margin-top: 0.8rem;
     font-size: 1.5rem;
@@ -2245,7 +2248,6 @@ img {
   box-shadow:#000;
   font-family: 'Caveat', cursive;
   text-decoration: underline 3px;
-  background-image:"img/fallback.jpeg";
 }
 
   #navibtn span {
