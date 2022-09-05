@@ -1912,7 +1912,6 @@ text-align: left;
 
 /* Normal header style */
 .header_bg {
-  background-color: gray;
   width: 100%;
   height: 80px;
   padding-left: 20px;
@@ -1965,6 +1964,7 @@ text-align: left;
   position: relative;
   z-index: 10;
 
+
 }
 .menu_line {
   background: #fafafa;
@@ -1977,6 +1977,7 @@ text-align: left;
 @media screen and (max-width: 768px) {
   .responsive_btn {
     display: flex;
+    
   }
   .header_bg {
     position: relative;
@@ -2057,7 +2058,6 @@ img {
 /* チェックボックスを非表示 */
 #navi input {
   display: none;
-  background-color: gray;
   color: #000;
 }
 /* 左上ロゴ */
@@ -2265,11 +2265,11 @@ img {
   #navibtn span span::after,
   #navibtn span::after {
     position: absolute;
+    background-color: #444444;
     left:10px;
     content:"";
     width: 20px;
     height: 3px;
-    background-color: gray;
   }
   /* 上の棒 */
   #navibtn span span::before {
