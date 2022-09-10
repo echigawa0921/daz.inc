@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/earlyaccess/hannari.css');
+
+.font{ font-family: "Hannari"; }
+
 body {
   font-family: 'Noto Sans Japanese', 'Open Sans', sans-serif;
+  font-family: "M PLUS 1p";
 }
 
 button, input, select, textarea {
   font-family: inherit;
+  font-family: "M PLUS 1p";
 }
 
 /* body
@@ -13,6 +19,7 @@ button, input, select, textarea {
 body {
   background-color: white;
   color: #333;
+  font-family: "M PLUS 1p";
 }
 
 /* button（ボタン）
@@ -93,10 +100,12 @@ body {
 
 .lp-sec-big--text > .lp-block > .lp-title {
   color: #333;
+  font-weight: bold;
 }
 
 .lp-sec-big--text > .lp-block > .lp-text {
   color: #333;
+  font-weight: bold;
 }
 
 /* ImageCenter
@@ -277,6 +286,7 @@ body {
 
 .lp-text{
   font-size: 20px;
+  font-family: "M PLUS 1p";
 }
 
 .margin-topping{
@@ -286,7 +296,9 @@ body {
 .content .box{
   position: absolute;
   margin: 0 auto;
+  font-family: "M PLUS 1p";
   width: 90%;
+  font-weight: bold;
   height: 700px;
 }
 
@@ -294,8 +306,11 @@ body {
   top: 20px;
   width: 600px;
   height: 400px;
+  font-family: "M PLUS 1p";
   object-fit: cover;
+  font-weight: bold;
   box-shadow: 15px 15px 0px 0 #005FFF;
+  font-weight: bold;
 }
 
 .content .box p{
@@ -304,12 +319,14 @@ body {
   background: #fff;
   z-index: 0;
   top: 100px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 100;
   width: 700px;
   height:  auto;
   padding: 70px;
   box-sizing: border-box;
+  font-weight: bold;
+  font-family: "M PLUS 1p";
   box-shadow: 0 0 10px #999;
   text-align: justify;
 }
@@ -364,6 +381,7 @@ body {
   right: 0;
   margin-top: 22px;
   padding: 20px;
+  font-weight: bold;
 }
 
 .content .box img{
