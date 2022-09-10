@@ -133,28 +133,24 @@ img {
 }
 
 .lp-c-button {
-  display: inline-block;
   width: auto;
   margin: 0;
   padding: 0;
   border: 0;
-  border-radius: 100px;
-  background-color: #333;
+  border-radius: 25px;
+  background-color: 	#A4C6FF;
   color: #FFF;
   font-weight: bold;
-  cursor: pointer;
-  overflow: visible;
-  line-height: 1.2;
+
 }
 
 .img_push{
   background-color: #000;
-  background-image: url("/Users/koshikawayuuki/Downloads/lp-html 2/img/about.png");
 }
 
 .lp-c-button--large {
-  padding: 1.25vw 3.125vw;
-  font-size: 3.6rem;
+  padding: 18px;
+  font-size: 1.6rem;
 }
 
 .lp-c-button--middle {
@@ -206,6 +202,7 @@ img {
 
 .lp-sec-header > .lp-block .lp-logo {
   margin-right: 20px;
+  color: #ddd;
   background-color: black;
 }
 
@@ -346,8 +343,10 @@ img {
   background-position: center;
   background-size: cover;
   background-color: #FFF;
+  color: #ddd;
   height: 810px;
-  background-image: url("https://github.com/echigawa0921/daz.inc/blob/main/img/%E3%81%93%E3%82%8CTOP%E3%81%A8%E3%81%8B%E3%81%A9%E3%81%86%EF%BC%9F.jpeg?raw=true");
+  background-image: url("/Users/koshikawayuuki/Downloads/lp-html 2/img/スクリーンショット 2022-09-10 18.38.55.png");
+  background-size: cover;
 }
 
 .lp-sec-big > .lp-block {
@@ -628,6 +627,7 @@ img {
 --------------------------------------------------------- */
 .lp-sec-image > .lp-block {
   padding: 5vw;
+
 }
 
 .lp-sec-image > .lp-block > .lp-title {
