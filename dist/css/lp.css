@@ -2110,7 +2110,6 @@ img {
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
-  background-color: 	white;
 }
 /* パソコンでは V を非表示 */
 .menu-parent .pd {
@@ -2138,6 +2137,7 @@ img {
   }
   .menu {
     display: none;
+    background-color: 	white;
   }
   .menu-parent {
     height: auto;
