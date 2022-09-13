@@ -12,18 +12,13 @@
   
   .lp-title{
     font-size: 35px;
-    font-weight: bold;
     padding: 20px;
   }
   .lp-title-white{
     font-size: 35px;
     color: #fff;
   }
-  
-  .lp-text{
-    font-size: 20px;
-  }
-  
+    
   .margin-topping{
     height: 150px;
   }
